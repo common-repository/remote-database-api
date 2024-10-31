@@ -1,0 +1,234 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AirtableApi\n"
+"POT-Creation-Date: 2016-05-21 10:19+0200\n"
+"PO-Revision-Date: 2016-05-21 10:20+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: languages\n"
+
+#: includes/class.airtable-api-admin.php:48
+msgid "Do you want to delete this table conversion?"
+msgstr "Souhaitez-vous supprimer cette table ?"
+
+#: includes/class.airtable-api-admin.php:49
+msgid "Do you want to delete this field conversion?"
+msgstr "Souhaitez-vous supprimer cette conversion de champ ?"
+
+#: includes/class.airtable-api-admin.php:50
+msgid "The conversion for this field already exists."
+msgstr "Ce champ existe déjà dans les conversions."
+
+#: includes/class.airtable-api-admin.php:58
+msgid "Remote Database API"
+msgstr "Remote Database API"
+
+#: includes/class.airtable-api-admin.php:69
+msgid "Remote Database API - Settings"
+msgstr "Remote Database API - Réglage"
+
+#: includes/class.airtable-api-admin.php:77
+msgid "Save changes"
+msgstr "Enregistrer"
+
+#: includes/class.airtable-api-admin.php:92
+msgid "Main settings"
+msgstr "Réglages principaux"
+
+#: includes/class.airtable-api-admin.php:99
+msgid "Airtable - API KEY"
+msgstr "Airtable - Clé API"
+
+#: includes/class.airtable-api-admin.php:107
+msgid "Airtable - Database ID"
+msgstr "Airtable - Base de donnée par défaut"
+
+#: includes/class.airtable-api-admin.php:115
+msgid "Airtable - View"
+msgstr "Airtable - Vue par défaut"
+
+#: includes/class.airtable-api-admin.php:123
+msgid "Cache lifetime"
+msgstr "Durée du cache"
+
+#: includes/class.airtable-api-admin.php:132
+msgid "Google Api Key"
+msgstr "Clé Google API"
+
+#: includes/class.airtable-api-admin.php:142
+msgid "Mapping with Airtable"
+msgstr "Table de conversion avec Airtable"
+
+#: includes/class.airtable-api-admin.php:149
+msgid "Mapping tables"
+msgstr "Conversion des tables"
+
+#: includes/class.airtable-api-admin.php:165
+msgid ""
+"You can also define a base and a default view when you leave these fields "
+"using the shortcode."
+msgstr ""
+"Vous pouvez définir une base et une vue par défaut qui seront utilisés lors "
+"de l’utilisation du shortcode."
+
+#: includes/class.airtable-api-admin.php:169
+msgid ""
+"You can create links between the column names and Airtable table id, and "
+"your own nomenclature to be used within the site."
+msgstr ""
+"Cette table de conversion vous permet d’utiliser des noms simple en "
+"remplacement du nom défini au sein de Airtable pour chaque Table. Vous "
+"pouvez à loisir les modifier chez Airtable, sans pour autant casser le "
+"fonctionnement des appels au sein de Wordpress : vous créez votre propre "
+"nomenclature."
+
+#: includes/class.airtable-api-admin.php:191
+msgid ""
+"You can set a time for the cache of all queries. If you leave empty or set "
+"the value to zero, no caching will be applied."
+msgstr ""
+"Vous pouvez définir d’un temps de mise en cache des valeurs associées aux "
+"requêtes vers l’API d’Airtable pour permettre une réponse plus rapide. Si "
+"vous laissez ce champs vide ou à 0, aucun cache ne sera mis en place, la "
+"durée du cache doit être indiquée en seconde."
+
+#: includes/class.airtable-api-admin.php:231
+msgid "Table:"
+msgstr "Table :"
+
+#: includes/class.airtable-api-admin.php:232
+msgid "Airtable table id"
+msgstr "ID de la table Airtable"
+
+#: includes/class.airtable-api-admin.php:233
+msgid "Internal table key"
+msgstr "Clé interne de table"
+
+#: includes/class.airtable-api-admin.php:234
+#: includes/class.airtable-api-admin.php:277
+msgid "Delete"
+msgstr "Supprimer"
+
+#: includes/class.airtable-api-admin.php:275
+msgid "Airtable field id"
+msgstr "Label de la colonne"
+
+#: includes/class.airtable-api-admin.php:276
+msgid "Internal field key"
+msgstr "Nom interne"
+
+#: includes/class.airtable-api-admin.php:284
+msgid "Add new field conversion name"
+msgstr "Ajouter une nouvelle conversion de champ"
+
+#: includes/class.airtable-api-admin.php:305
+msgid "Add new table conversion name"
+msgstr "Ajouter une nouvelle conversion de table"
+
+#: includes/class.airtable-api-shortcode.php:35
+msgid "You have to set a -base- parameter."
+msgstr "Vous n’avez pas défini de paramètre type -base de donnée-"
+
+#: includes/class.airtable-api-shortcode.php:38
+msgid "You have to set a -table- parameter."
+msgstr "Vous n’avez pas défini de paramètre type -table-"
+
+#: includes/class.airtable-api-shortcode.php:47
+msgid "Get all records from table:"
+msgstr "Récupérer tous les éléments de la table :"
+
+#: includes/class.airtable-api-shortcode.php:53
+msgid "Get all records from specific view:"
+msgstr "Récupérer tous les éléments de la vue :"
+
+#: includes/class.airtable-api-shortcode.php:61
+msgid "Get specific record:"
+msgstr "Récupérer un élément spécifique :"
+
+#: includes/class.airtable-api-shortcode.php:70
+msgid "Update specific record:"
+msgstr "Mettre à jour un élément :"
+
+#: includes/class.airtable-api-shortcode.php:84
+msgid "Create record:"
+msgstr "Créer un élément :"
+
+#: includes/class.airtable-api-shortcode.php:107
+#: includes/class.airtable-api-shortcode.php:156
+msgid "Error:"
+msgstr "Erreur :"
+
+#: includes/class.airtable-api-shortcode.php:107
+msgid "Empty table id."
+msgstr "ID de la table vide."
+
+#: includes/class.airtable-api-shortcode.php:156
+msgid "Template missing."
+msgstr "Modèle de page manquant."
+
+#~ msgid "Shares"
+#~ msgstr "Shares"
+
+#~ msgid "Share"
+#~ msgstr "Share"
+
+#~ msgid "Title"
+#~ msgstr "Title"
+
+#~ msgid "Message"
+#~ msgstr "Message"
+
+#~ msgid "Image"
+#~ msgstr "Image"
+
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#~ msgid "Your email"
+#~ msgstr "Your email"
+
+#~ msgid "Send"
+#~ msgstr "Send share"
+
+#~ msgid "A value is required for this field."
+#~ msgstr "A value is required for this field."
+
+#~ msgid "Email address is not valid."
+#~ msgstr "Email address is not valid."
+
+#~ msgid "This file is required to post your content."
+#~ msgstr "This file is required to post your content."
+
+#~ msgid "Something wrong."
+#~ msgstr "Something wrong."
+
+#~ msgid ""
+#~ "We can not retrieve the post created following your publication. Very "
+#~ "strange."
+#~ msgstr ""
+#~ "We can not retrieve the post created following your publication. Very "
+#~ "strange."
+
+#~ msgid "Error when creating the post, retry?"
+#~ msgstr "Error when creating the post, retry?"
+
+#~ msgid "Something isn't working properly."
+#~ msgstr "Something isn't working properly."
+
+#~ msgid "Nothing to show."
+#~ msgstr "Nothing to show."
+
+#~ msgid "Airtable API"
+#~ msgstr "Airtable API"
+
+#~ msgid "Airtable API - Settings"
+#~ msgstr "Airtable API - Réglages"

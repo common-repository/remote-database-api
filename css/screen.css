@@ -1,0 +1,7 @@
+#grid.filtered .item {
+  display: none; }
+  #grid.filtered .item.active {
+    display: block; }
+
+.input-type-map .the-map {
+  height: 300px; }

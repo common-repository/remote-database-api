@@ -1,0 +1,45 @@
+.airtable-api-settings p {
+  max-width: 800px; }
+.airtable-api-settings .mapping-table-field-row {
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  background-color: #fff;
+  max-width: 700px;
+  overflow: hidden; }
+  .airtable-api-settings .mapping-table-field-row .table-name {
+    margin-top: 0px; }
+  .airtable-api-settings .mapping-table-field-row .mapping-table {
+    padding: 1em; }
+.airtable-api-settings .mapping-table-delete,
+.airtable-api-settings .mapping-table-add,
+.airtable-api-settings .mapping-field-add,
+.airtable-api-settings .mapping-field-delete {
+  display: inline-block;
+  font-size: 0.8em;
+  text-decoration: none;
+  vertical-align: middle; }
+.airtable-api-settings .mapping-table-add {
+  margin-top: 0.5em; }
+.airtable-api-settings form input {
+  height: auto;
+  padding: 0.5em 1em; }
+.airtable-api-settings .mapping-fields {
+  padding: 1em;
+  background-color: #f9f9f9; }
+  .airtable-api-settings .mapping-fields .indications {
+    font-size: 0.8em;
+    max-width: 700px;
+    margin-bottom: 1em; }
+    .airtable-api-settings .mapping-fields .indications .field-name:hover {
+      color: #00a0d2;
+      cursor: pointer; }
+  .airtable-api-settings .mapping-fields .mapping-field-row {
+    margin-bottom: 0.2em; }
+    .airtable-api-settings .mapping-fields .mapping-field-row.not-found input.field-id {
+      border-color: #cc0000 !important;
+      color: #cc0000; }
+.airtable-api-settings .code-mirror {
+  height: 100px;
+  width: 90%;
+  margin: auto; }
